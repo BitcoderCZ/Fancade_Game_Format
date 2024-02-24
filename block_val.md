@@ -12,5 +12,5 @@ else if (type == 4)\
 else if (type == 5)\
 |&emsp;[vec3f; value; the value is a vector or rotation]\
 else\
-|&emsp;[[string](https://github.com); value; the value is a string or name of a block terminal]
+|&emsp;[[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md); value; the value is a string or name of a block terminal]
 ## Example
