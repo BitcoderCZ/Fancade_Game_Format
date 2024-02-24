@@ -75,6 +75,7 @@ connections_inside: true\
 collider: none\
 block_type: script\
 isMain: true
+name: "Inc by 1"
 ```
 000000: 3F 18 02 08 49 6E 63 20 62 79 20 31 00 40 02 00 | ?...Inc by 1.@.. |
 000010: 00 00 02 02 02 02 02 02 02 01 02 02 02 02 02 02 | ................ |

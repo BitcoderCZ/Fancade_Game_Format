@@ -28,7 +28,7 @@ else\
 |&emsp;the level doesn't have any connections
 ## Example
 Tutorial/1. Top Down View\
-name: Top Down View\
+name: "Top Down View"\
 bc: 1
 ```
 000000: 07 19 03 0D 54 6F 70 20 44 6F 77 6E 20 56 69 65 | ....Top Down Vie |
