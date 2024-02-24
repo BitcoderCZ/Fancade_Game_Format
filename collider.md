@@ -14,4 +14,3 @@ else if (value == 0x28)\
 |&emsp;|&emsp;invalid collider\
 else\
 |&emsp;invalid collider
-## Example

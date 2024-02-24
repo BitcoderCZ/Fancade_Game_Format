@@ -14,3 +14,11 @@ else if (type == 5)\
 else\
 |&emsp;[[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md); value; the value is a string or name of a block terminal]
 ## Example
+index: 0\
+type: 5\
+pos: (0, 0, 0)\
+value: (90f, 0f, 0f)
+```
+000000: 00 05 00 00 00 00 00 00 00 00 B4 42 00 00 00 00 | ...........B.... |
+000010: 00 00 00 00                                     | ....             |
+```
