@@ -1,5 +1,5 @@
 # Collider
-### Format
+## Format
 \#[uint8; value; block.header0 & 0b_0010_1000]\
 \#[uint8; value2; determines if collider is none or sphere]\
 
@@ -14,4 +14,4 @@ else if (value == 0x28)\
 |&emsp;|&emsp;invalid collider\
 else\
 |&emsp;invalid collider
-### Example
+## Example

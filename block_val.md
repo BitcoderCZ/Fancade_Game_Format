@@ -1,5 +1,5 @@
 # Block Value
-### Format
+## Format
 [uint8; index; in case the block has multiple values]\
 [uint8; type; type of the value]\
 [vec3i; pos; position of the block this value belongs to]\
@@ -13,4 +13,4 @@ else if (type == 5)\
 |&emsp;[vec3f; value; the value is a vector or rotation]\
 else\
 |&emsp;[[string](https://github.com); value; the value is a string or name of a block terminal]
-### Example
+## Example

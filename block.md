@@ -1,8 +1,8 @@
 # Block
-### Info
+## Info
 Section = 8\*8\*8 part of the block
-### Format
-##### Header
+## Format
+### Header
 [uint8; header0; ]\
 |&emsp;((header0 & 0b_1000_0000) != 0)&emsp;\#[bool; unknown; ]\
 |&emsp;((header0 & 0b_0100_0000) != 0)&emsp;\#[bool; uneditable; makes the block not editable]\
@@ -41,7 +41,7 @@ if (isMain)\
 |&emsp;|&emsp;[uint8; [collider](https://github.com).value2; additional collider value]\
 |&emsp;else if (type == script))\
 |&emsp;|&emsp;[uint8; ; not needed]
-##### Main part
+### Main part
 if (!isMain || (isMain && multi_block))\
 |&emsp;[uint16; is; id of this block]\
 |&emsp;[vec3i; pos; position of this section]\
@@ -65,4 +65,4 @@ if (isMain)\
 |&emsp;\
 |&emsp;if (connections_inside)\
 |&emsp;|&emsp;[[array](https://github.com)<[block_con](https://github.com)>; connections; connections between blocks, and between outside and inside if one of the positions is (32769, 32769, 32769)]
-### Example
+## Example

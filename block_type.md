@@ -1,5 +1,5 @@
 # Block Type
-### Values
+## Values
 {\
 |&emsp;normal,\
 |&emsp;physics,\

@@ -1,10 +1,10 @@
 # Vector3 Int
-### Format
+## Format
 [uint16; x; ]\
 [uint16; y; ]\
 [uint16; z; ]
 
-### Example
+## Example
 x: 3\
 y: 0\
 z: 11

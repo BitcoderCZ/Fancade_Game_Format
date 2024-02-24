@@ -1,5 +1,5 @@
 # Level
-### Format
+## Format
 [uint8; header_0; ]\
 [uint8; header_1; 0x18 or 0x19 (has non default background color)]\
 [uint8; header_2; always 0x03]\
@@ -26,4 +26,4 @@ if ((header_0 & 0b_0000_0001) != 0)\
 |&emsp;[[array](https://github.com)<[block_con](https://github.com)>; connections; connections between blocks]\
 else\
 |&emsp;the level doesn't have any connections
-### Example
+## Example
