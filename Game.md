@@ -1,6 +1,6 @@
 # Game
 ## Format
-[uint16; format_version; ;]\
+[uint16; format_version; from 27 (1.0) to currently 31 (1.14.5);]\
 [[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md); game_name; ;]\
 [[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md); game_author; ;]\
 [[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md); game_description; ;]\
