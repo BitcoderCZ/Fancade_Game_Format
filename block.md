@@ -47,7 +47,7 @@ if (!isMain || (isMain && multi_block))\
 |&emsp;[vec3i; pos; position of this section]\
 else\
 |&emsp;this block is 1x1x1\
-|&emsp;id is determined by order, either by other blocks that aren't 1x1x1 or by the number of build-in blocks in this format version
+|&emsp;id is determined by order, either by other blocks that aren't 1x1x1 or by the number of build-in blocks in this format version (id of the first block is (most of the time) Block offset for format_version + number of levels)
 
 [[block_face](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/block_face.md)[8 * 8 * 8]; facesX; 3d array of +x faces]\
 [[block_face](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/block_face.md)[8 * 8 * 8]; facesNX; 3d array of -x faces]\
