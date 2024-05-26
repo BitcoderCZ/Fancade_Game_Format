@@ -1,5 +1,15 @@
 # Fancade Game Format
-value - [value type; value name or variable to assign to (e.g. [collider](https://github.com).value); info]\
-variable - (optional expression to assign to the variable) \#[variable type; variable name; info]\
-## File Format
-Games are ZLib compressed
+Endianness: Little-endian
+## Terminology
+Custom Block - a block created by player, made from 1 or more segments
+Segment - a 1x1x1 block
+Sub block - a segment is made from 8x8x8 sub blocks
+## Blocks added
+Id of the first custom block: 512 + blocks added + number of levels
+|PletteVersion|Number of blocks added|
+|:--|:--|
+|27|44|	
+|28|72|	
+|29|76|	
+|30|84|	
+|31|85|	

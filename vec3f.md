@@ -1,8 +1,10 @@
 # Vector3 Float
 ## Format
-[float; x; ]\
-[float; y; ]\
-[float; z; ]
+|Type|Name|Description|
+|:--|:--|:--|
+|float|x||
+|float|y||
+|float|z||
 
 ## Example
 x: 3.5\
