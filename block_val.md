@@ -9,7 +9,7 @@
 |uint16|value||type == 2|
 |float|value||type == 4|
 |vec3f|value|vector or rotation|type == 5|
-|[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md)|value|for terminals names, type describes the terminal type and if it is in/out|else|
+|[string](https://github.com/BitcoderCZ/Fancade_Game_Format/blob/main/string.md)|value|for comment or terminal's name, type describes the terminal's type and if it is in/out|else|
 ## Example
 index: 0\
 type: 5\

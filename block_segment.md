@@ -8,7 +8,7 @@ Segment = 8\*8\*8 part of the block
 |[Header0](#header0) and [Collider](#collider)|header0, collider|header and collider in 1 byte|
 |uint8|header1||
 
-#### Block type
+#### Determining block type
 if header1 == 0x00 {
 |Name|Value|
 |:--|:--|
