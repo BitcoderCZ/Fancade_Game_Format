@@ -6,7 +6,7 @@ Endianness: Little-endian
 * Sub block - a segment is made from 8x8x8 sub blocks
 ## Blocks added
 Id of the first custom block: 512 + blocks added + number of levels
-|PletteVersion|Number of blocks added|
+|PaletteVersion|Number of blocks added|
 |:--|:--|
 |27|44|	
 |28|72|	
