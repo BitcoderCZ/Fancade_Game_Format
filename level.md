@@ -29,4 +29,4 @@ flags enum Header1 : uint8
 |Name|Value|
 |:--|:--|
 |{Base}|0x18|
-|NonDefaulBGtColor|0x01|
+|NonDefaultBGColor|0x01|
